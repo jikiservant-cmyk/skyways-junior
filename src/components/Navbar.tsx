@@ -13,7 +13,6 @@ const navLinks = [
   { name: "Academics", href: "/academics" },
   { name: "Events", href: "/events" },
   { name: "Student Life", href: "/student-life" },
-  { name: "Donate", href: "/donate" },
   { name: "Contact", href: "/contact" },
 ]
 

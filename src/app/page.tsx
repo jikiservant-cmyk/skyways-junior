@@ -38,7 +38,7 @@ export default function Home() {
             
             <KineticHeadline 
               lines={["SKYWAYS JUNIOR", "SCHOOL"]} 
-              className="text-7xl md:text-[10rem] font-[900] uppercase tracking-tighter leading-[0.75] font-headline text-left items-start"
+              className="text-7xl md:text-[8rem] font-[900] uppercase tracking-tighter leading-[0.75] font-headline text-left items-start"
               staggerDelay={0.1}
             />
             
@@ -101,7 +101,7 @@ export default function Home() {
       {/* Quick Links Section */}
       <section className="py-20 bg-[#F5F5F5] relative z-10">
         <div className="container mx-auto px-6 md:px-12">
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <Link href="/events" className="group">
               <div className="bg-white p-10 h-full shadow-sm hover:shadow-xl transition-all duration-300 border-t-4 border-[#FFB800]">
                 <KineticHeadline lines={["Events"]} className="text-2xl font-black text-[#2D2B44] mb-4 uppercase font-headline" />
@@ -114,13 +114,6 @@ export default function Home() {
                 <KineticHeadline lines={["Academics"]} className="text-2xl font-black text-[#2D2B44] mb-4 uppercase font-headline" />
                 <InkFlowText className="text-muted-foreground mb-6 text-base font-body">Explore our comprehensive curriculum and learning programs.</InkFlowText>
                 <span className="text-[#FFB800] font-bold text-sm tracking-widest uppercase">Explore →</span>
-              </div>
-            </Link>
-            <Link href="/donate" className="group">
-              <div className="bg-white p-10 h-full shadow-sm hover:shadow-xl transition-all duration-300 border-t-4 border-[#FFB800]">
-                <KineticHeadline lines={["Support Us"]} className="text-2xl font-black text-[#2D2B44] mb-4 uppercase font-headline" />
-                <InkFlowText className="text-muted-foreground mb-6 text-base font-body">Partner with us in our mission through secure online giving.</InkFlowText>
-                <span className="text-[#FFB800] font-bold text-sm tracking-widest uppercase">Give Now →</span>
               </div>
             </Link>
           </div>

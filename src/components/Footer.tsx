@@ -31,7 +31,6 @@ export function Footer() {
               <li><Link href="/academics" className="hover:text-[#FFB800] transition-colors">Academics</Link></li>
               <li><Link href="/student-life" className="hover:text-[#FFB800] transition-colors">Student Life</Link></li>
               <li><Link href="/events" className="hover:text-[#FFB800] transition-colors">Events</Link></li>
-              <li><Link href="/donate" className="hover:text-[#FFB800] transition-colors">Donate</Link></li>
             </ul>
           </div>
 
