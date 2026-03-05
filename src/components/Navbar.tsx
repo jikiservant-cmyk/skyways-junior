@@ -3,6 +3,7 @@
 
 import * as React from "react"
 import Link from "next/link"
+import Image from "next/image"
 import { usePathname } from "next/navigation"
 import { Menu, X } from "lucide-react"
 import { cn } from "@/lib/utils"
@@ -28,27 +29,13 @@ export function Navbar() {
           <div className="flex items-center">
             {/* Logo - Far Left */}
             <Link href="/" className="flex items-center mr-12 group">
-               <svg 
-                width="36" 
-                height="36" 
-                viewBox="0 0 24 24" 
-                fill="none" 
-                stroke="white" 
-                strokeWidth="1.5" 
-                strokeLinecap="round" 
-                strokeLinejoin="round"
-                className="group-hover:opacity-80 transition-opacity"
-              >
-                <path d="M12 8V2l4 4" />
-                <path d="M12 2L8 6" />
-                <path d="M12 15h.01" />
-                <path d="M12 12v-2" />
-                <path d="M12 12a2.5 2.5 0 0 0-2.5 2.5c0 .61.22 1.16.59 1.59" />
-                <path d="M12 12a2.5 2.5 0 0 1 2.5 2.5c0 .61-.22 1.16-.59 1.59" />
-                <path d="M14.5 14.5c.66.44 1.5 1.59 1.5 2.5 0 1.66-1.34 3-3 3s-3-1.34-3-3c0-.91.84-2.06 1.5-2.5" />
-                <path d="M4 18c1-1 3-2 5-2s3 1 4 2" />
-                <path d="M20 18c-1-1-3-2-5-2s-3 1-4 2" />
-              </svg>
+              <Image
+                src="/images/images.jpg"
+                alt="Skyways Junior School Logo"
+                width={40}
+                height={40}
+                className="rounded-full group-hover:opacity-80 transition-opacity"
+              />
             </Link>
 
             {/* Desktop Links */}
