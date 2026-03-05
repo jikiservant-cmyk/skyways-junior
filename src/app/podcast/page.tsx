@@ -1,3 +1,4 @@
+
 'use client';
 
 import React from "react";
@@ -37,7 +38,7 @@ const episodes = [
   {
     number: "01",
     title: "Beginnings and Anchors",
-    description: "Our pilot episode discussing the fundamental pillars of NCF Church and why we believe in the power of local community.",
+    description: "Our pilot episode discussing the fundamental pillars of Skyways Junior School and why we believe in the power of local community.",
     date: "SEP 24, 2023",
     duration: "50 MIN",
     image: "https://picsum.photos/seed/pod1/400/400"

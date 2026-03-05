@@ -37,7 +37,7 @@ export default function Home() {
             />
             
             <KineticHeadline 
-              lines={["NCF", "CHURCH"]} 
+              lines={["SKYWAYS JUNIOR", "SCHOOL"]} 
               className="text-7xl md:text-[12rem] font-[900] uppercase tracking-tighter leading-[0.75] font-headline text-left items-start"
               staggerDelay={0.1}
             />

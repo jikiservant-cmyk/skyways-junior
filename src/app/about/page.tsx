@@ -72,7 +72,7 @@ export default function AboutPage() {
             
             <div className="space-y-8">
               <InkFlowText delay={0.8} className="text-xl md:text-2xl font-body leading-relaxed text-white/90">
-                NCF Church exists to be a beacon of grace in a complex world. We are committed to authentic faith, radical hospitality, and systemic change through the power of love.
+                Skyways Junior School exists to be a beacon of grace in a complex world. We are committed to authentic faith, radical hospitality, and systemic change through the power of love.
               </InkFlowText>
               
               <InkFlowText delay={1.2} className="text-lg text-white/70 font-body leading-relaxed max-w-2xl mx-auto">

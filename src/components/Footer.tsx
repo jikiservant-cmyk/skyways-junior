@@ -1,3 +1,4 @@
+
 import Link from "next/link"
 import { Facebook, Instagram, Twitter, Youtube, MapPin, Phone, Mail } from "lucide-react"
 
@@ -9,7 +10,7 @@ export function Footer() {
           <div className="space-y-8">
             <Link href="/" className="flex flex-col items-start group">
               <span className="text-4xl font-black uppercase tracking-tighter leading-[0.8] text-white group-hover:text-[#D12E8B] transition-colors">
-                NCF<br />CHURCH
+                SKYWAYS<br />JUNIOR SCHOOL
               </span>
             </Link>
             <p className="text-white/60 leading-relaxed font-body text-lg">
@@ -49,7 +50,7 @@ export function Footer() {
             <ul className="space-y-6">
               <li className="flex items-start space-x-4">
                 <MapPin className="h-6 w-6 text-[#D12E8B] mt-1 shrink-0" />
-                <span className="text-white/60 text-lg">Nabweru Christian Fellowship Church, 9GGV+56F, Nabweru Rd, Kampala</span>
+                <span className="text-white/60 text-lg">Skyways Junior School, 9GGV+56F, Nabweru Rd, Kampala</span>
               </li>
               <li className="flex items-center space-x-4">
                 <Phone className="h-6 w-6 text-[#D12E8B] shrink-0" />
@@ -57,14 +58,14 @@ export function Footer() {
               </li>
               <li className="flex items-center space-x-4">
                 <Mail className="h-6 w-6 text-[#D12E8B] shrink-0" />
-                <span className="text-white/60 text-lg">hello@ncfchurch.org</span>
+                <span className="text-white/60 text-lg">hello@skywaysjuniorschool.org</span>
               </li>
             </ul>
           </div>
         </div>
 
         <div className="mt-24 pt-12 border-t border-white/5 text-center text-sm text-white/30 uppercase tracking-[0.2em]">
-          <p>© {new Date().getFullYear()} NCF Church. Built with purpose.</p>
+          <p>© {new Date().getFullYear()} Skyways Junior School. Built with purpose.</p>
         </div>
       </div>
     </footer>

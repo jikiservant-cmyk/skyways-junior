@@ -1,3 +1,4 @@
+
 "use client"
 
 import * as React from "react"
@@ -77,7 +78,7 @@ export default function ContactPage() {
                   </div>
                   <div className="space-y-1">
                     <h3 className="text-lg font-bold text-[#2D2B44] uppercase tracking-wide">Location</h3>
-                    <p className="text-muted-foreground font-body">Nabweru Christian Fellowship Church, 9GGV+56F, Nabweru Rd, Kampala</p>
+                    <p className="text-muted-foreground font-body">Skyways Junior School, 9GGV+56F, Nabweru Rd, Kampala</p>
                   </div>
                 </div>
 
@@ -97,7 +98,7 @@ export default function ContactPage() {
                   </div>
                   <div className="space-y-1">
                     <h3 className="text-lg font-bold text-[#2D2B44] uppercase tracking-wide">Email</h3>
-                    <p className="text-muted-foreground font-body">hello@ncfchurch.org</p>
+                    <p className="text-muted-foreground font-body">hello@skywaysjuniorschool.org</p>
                   </div>
                 </div>
               </div>

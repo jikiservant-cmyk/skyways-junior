@@ -1,3 +1,4 @@
+
 import type {Metadata} from 'next';
 import './globals.css';
 import { Navbar } from '@/components/Navbar';
@@ -5,7 +6,7 @@ import { Footer } from '@/components/Footer';
 import { Toaster } from '@/components/ui/toaster';
 
 export const metadata: Metadata = {
-  title: 'NCF Church | Welcome Home',
+  title: 'Skyways Junior School | Welcome Home',
   description: 'A modern community dedicated to faith, hope, and love.',
 };
 

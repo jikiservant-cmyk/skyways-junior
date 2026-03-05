@@ -1,3 +1,4 @@
+
 "use client"
 
 import * as React from "react"
@@ -177,7 +178,7 @@ export default function DonatePage() {
                 <div className="p-8 bg-[#F8F8F8] border-l-4 border-[#FFB800] flex items-center space-x-6">
                   <ShieldCheck className="h-10 w-10 text-[#FFB800] shrink-0" />
                   <p className="text-sm font-bold text-[#2D2B44] uppercase tracking-widest leading-relaxed">
-                    NCF Church is a registered 501(c)(3) nonprofit. All donations are tax-deductible.
+                    Skyways Junior School is a registered 501(c)(3) nonprofit. All donations are tax-deductible.
                   </p>
                 </div>
               </BlurFocusText>
