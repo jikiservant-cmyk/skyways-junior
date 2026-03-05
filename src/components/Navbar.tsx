@@ -25,20 +25,20 @@ export function Navbar() {
     <header className="w-full z-50 sticky top-0 bg-[#3E3E4E] shadow-lg">
       <nav className="container mx-auto px-6 lg:px-12">
         <div className="flex h-20 items-center justify-between">
-          {/* Logo & Links Group */}
-          <div className="flex items-center">
-            {/* Logo - Far Left */}
-            <Link href="/" className="flex items-center mr-12 group">
-              <Image
-                src="/images/images.jpg"
-                alt="Skyways Junior School Logo"
-                width={40}
-                height={40}
-                className="rounded-full group-hover:opacity-80 transition-opacity"
-              />
-            </Link>
+          {/* Logo */}
+          <Link href="/" className="flex items-center group">
+            <Image
+              src="/images/images.jpg"
+              alt="Skyways Junior School Logo"
+              width={40}
+              height={40}
+              className="rounded-full group-hover:opacity-80 transition-opacity"
+            />
+            <span className="ml-4 font-headline text-lg font-bold text-white hidden md:block">Skyways Junior School</span>
+          </Link>
 
-            {/* Desktop Links */}
+          {/* Desktop Links & Mobile Menu Button */}
+          <div className="flex items-center">
             <div className="hidden md:flex items-center space-x-10">
               {navLinks.map((link) => (
                 <Link
@@ -53,10 +53,6 @@ export function Navbar() {
                 </Link>
               ))}
             </div>
-          </div>
-
-          {/* Right Group: Mobile Menu Button */}
-          <div className="flex items-center">
             <button
               onClick={() => setIsOpen(!isOpen)}
               aria-label="Toggle menu"
