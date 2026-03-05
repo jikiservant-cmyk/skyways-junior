@@ -1,4 +1,3 @@
-
 'use client';
 
 import React from "react";
@@ -59,7 +58,7 @@ export default function StudentLifePage() {
         </div>
 
         {/* Right: Content Block */}
-        <div className="w-full lg:w-1/2 bg-[#003322] flex flex-col justify-center p-12 md:p-24 text-white">
+        <div className="w-full lg:w-1/2 bg-[#6A040F] flex flex-col justify-center p-12 md:p-24 text-white">
           <div className="space-y-4 mb-8">
             <span className="text-[#FFB800] font-headline font-bold text-sm tracking-[0.4em] block uppercase">
               Featured Program
@@ -76,7 +75,7 @@ export default function StudentLifePage() {
 
           <div className="flex items-center space-x-8">
             <MagneticButton strength={30}>
-              <Button className="bg-[#FFB800] text-[#003322] h-20 px-10 rounded-full flex items-center justify-center shadow-lg group hover:scale-110 transition-all font-black text-xl">
+              <Button className="bg-[#FFB800] text-[#6A040F] h-20 px-10 rounded-full flex items-center justify-center shadow-lg group hover:scale-110 transition-all font-black text-xl">
                 LEARN MORE <ArrowRight className="h-6 w-6 ml-2 group-hover:translate-x-1 transition-transform" />
               </Button>
             </MagneticButton>
@@ -122,7 +121,7 @@ export default function StudentLifePage() {
                 {/* Button */}
                 <div className="mt-8 md:mt-0 md:ml-12 flex flex-col items-center">
                   <MagneticButton>
-                    <Button variant="outline" className="border-white/20 text-white hover:bg-[#FFB800] hover:text-[#003322] hover:border-[#FFB800] font-black rounded-full px-8 group">
+                    <Button variant="outline" className="border-white/20 text-white hover:bg-[#FFB800] hover:text-[#6A040F] hover:border-[#FFB800] font-black rounded-full px-8 group">
                       JOIN <ArrowRight className="ml-2 h-4 w-4" />
                     </Button>
                   </MagneticButton>

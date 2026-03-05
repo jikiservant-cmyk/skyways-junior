@@ -22,9 +22,9 @@ const academicPrograms = [
     title: "LOWER PRIMARY",
     description: "In Lower Primary (Ages 6-8), we focus on core subjects like literacy and numeracy, fostering curiosity and critical thinking through interactive lessons and collaborative projects.",
     image: "https://picsum.photos/seed/lower-primary/800/800",
-    bgColor: "bg-[#003322]",
+    bgColor: "bg-[#6A040F]",
     textColor: "text-white",
-    btnClass: "border-[#FFB800] text-[#FFB800] hover:bg-[#FFB800] hover:text-[#003322]"
+    btnClass: "border-[#FFB800] text-[#FFB800] hover:bg-[#FFB800] hover:text-[#6A040F]"
   },
   {
     title: "UPPER PRIMARY",
@@ -38,9 +38,9 @@ const academicPrograms = [
     title: "ARTS & MUSIC",
     description: "The Arts & Music program encourages creative expression through visual arts, drama, and music, allowing students to discover and develop their unique artistic talents.",
     image: "https://picsum.photos/seed/arts-music/800/800",
-    bgColor: "bg-[#003322]",
+    bgColor: "bg-[#6A040F]",
     textColor: "text-white",
-    btnClass: "border-[#FFB800] text-[#FFB800] hover:bg-[#FFB800] hover:text-[#003322]"
+    btnClass: "border-[#FFB800] text-[#FFB800] hover:bg-[#FFB800] hover:text-[#6A040F]"
   },
   {
     title: "ATHLETICS",
@@ -54,9 +54,9 @@ const academicPrograms = [
     title: "TECHNOLOGY & CODING",
     description: "We equip students for the digital age with programs in coding, robotics, and digital literacy, fostering problem-solving skills and innovation.",
     image: "https://picsum.photos/seed/coding-tech/800/800",
-    bgColor: "bg-[#003322]",
+    bgColor: "bg-[#6A040F]",
     textColor: "text-white",
-    btnClass: "border-[#FFB800] text-[#FFB800] hover:bg-[#FFB800] hover:text-[#003322]"
+    btnClass: "border-[#FFB800] text-[#FFB800] hover:bg-[#FFB800] hover:text-[#6A040F]"
   },
 ]
 
@@ -98,7 +98,7 @@ export default function AcademicsPage() {
                 src={prog.image} 
                 alt={prog.title} 
                 className="w-full h-full grayscale brightness-75 hover:grayscale-0 transition-all duration-1000"
-                maskColor={prog.bgColor === "bg-[#3E3E4E]" ? "bg-[#3E3E4E]" : "bg-[#003322]"}
+                maskColor={prog.bgColor === "bg-[#3E3E4E]" ? "bg-[#3E3E4E]" : "bg-[#6A040F]"}
               />
             </div>
 
@@ -130,14 +130,14 @@ export default function AcademicsPage() {
       ))}
 
       {/* 3. Footer CTA Section */}
-      <section className="py-32 bg-[#003322] text-white text-center">
+      <section className="py-32 bg-[#6A040F] text-white text-center">
         <div className="container mx-auto px-6">
           <KineticHeadline 
             lines={["SCHEDULE A TOUR"]} 
             className="text-4xl md:text-7xl font-black uppercase font-headline mb-12"
           />
           <MagneticButton>
-            <Button variant="outline" className="border-[#FFB800] text-[#FFB800] hover:bg-[#FFB800] hover:text-[#003322] font-black h-20 px-12 rounded-full text-2xl group transition-all duration-500">
+            <Button variant="outline" className="border-[#FFB800] text-[#FFB800] hover:bg-[#FFB800] hover:text-[#6A040F] font-black h-20 px-12 rounded-full text-2xl group transition-all duration-500">
               CONTACT ADMISSIONS <ArrowRight className="ml-2 h-8 w-8 group-hover:translate-x-2 transition-transform" />
             </Button>
           </MagneticButton>

@@ -1,4 +1,3 @@
-
 'use client';
 
 import React from "react";
@@ -86,8 +85,8 @@ export default function EventsPage() {
           <div className="absolute inset-0 bg-gradient-to-r from-black/60 to-transparent lg:hidden" />
         </div>
 
-        {/* Right: Solid Green Date/Title block */}
-        <div className="w-full lg:w-2/5 bg-[#003322] flex flex-col justify-center p-12 md:p-20 text-white">
+        {/* Right: Solid Red Date/Title block */}
+        <div className="w-full lg:w-2/5 bg-[#6A040F] flex flex-col justify-center p-12 md:p-20 text-white">
           <div className="space-y-6 slide-up">
             <span className="text-[#FFB800] font-serif text-3xl md:text-5xl font-black tracking-tighter block border-b-2 border-[#FFB800] w-fit pb-2">
               SEP 05
@@ -101,7 +100,7 @@ export default function EventsPage() {
             </InkFlowText>
             <div className="pt-8">
               <MagneticButton>
-                <Button className="bg-[#FFB800] text-[#003322] hover:bg-[#FFB800]/90 font-black h-16 px-10 rounded-full text-xl group">
+                <Button className="bg-[#FFB800] text-[#6A040F] hover:bg-[#FFB800]/90 font-black h-16 px-10 rounded-full text-xl group">
                   VIEW DETAILS <ArrowRight className="ml-2 h-6 w-6 group-hover:translate-x-1 transition-transform" />
                 </Button>
               </MagneticButton>
@@ -158,7 +157,7 @@ export default function EventsPage() {
                   
                   <div className="pt-4">
                     <MagneticButton className="w-full">
-                      <Button className="w-full h-12 bg-white text-[#3E3E4E] hover:bg-[#FFB800] hover:text-[#003322] font-black uppercase tracking-wider rounded-full transition-colors group">
+                      <Button className="w-full h-12 bg-white text-[#3E3E4E] hover:bg-[#FFB800] hover:text-[#6A040F] font-black uppercase tracking-wider rounded-full transition-colors group">
                         REGISTER <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
                       </Button>
                     </MagneticButton>
@@ -171,14 +170,14 @@ export default function EventsPage() {
       </section>
 
       {/* Footer CTA */}
-      <section className="relative z-10 py-32 bg-[#003322] text-white text-center">
+      <section className="relative z-10 py-32 bg-[#6A040F] text-white text-center">
         <div className="container mx-auto px-6">
           <KineticHeadline 
             lines={["STAY UP TO DATE"]} 
             className="text-4xl md:text-7xl font-black uppercase font-headline mb-12"
           />
           <MagneticButton>
-            <Button variant="outline" className="border-[#FFB800] text-[#FFB800] hover:bg-[#FFB800] hover:text-[#003322] font-black h-20 px-12 rounded-full text-2xl group">
+            <Button variant="outline" className="border-[#FFB800] text-[#FFB800] hover:bg-[#FFB800] hover:text-[#6A040F] font-black h-20 px-12 rounded-full text-2xl group">
               VIEW FULL CALENDAR <ArrowRight className="ml-2 h-8 w-8 group-hover:translate-x-2 transition-transform" />
             </Button>
           </MagneticButton>

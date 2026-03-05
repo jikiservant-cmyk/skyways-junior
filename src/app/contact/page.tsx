@@ -1,4 +1,3 @@
-
 "use client"
 
 import * as React from "react"
@@ -32,7 +31,7 @@ export default function ContactPage() {
   return (
     <div className="flex flex-col w-full min-h-screen bg-white">
       {/* 1. Hero Section */}
-      <section className="relative h-[40vh] w-full overflow-hidden flex items-center justify-center bg-[#003322]">
+      <section className="relative h-[40vh] w-full overflow-hidden flex items-center justify-center bg-[#6A040F]">
         <div className="absolute inset-0 overflow-hidden pointer-events-none" style={{ clipPath: 'inset(0)' }}>
           <div 
             className="fixed inset-0 w-full h-full bg-center bg-cover -z-10 grayscale brightness-[0.3]"
@@ -154,7 +153,7 @@ export default function ContactPage() {
 
                 <div className="pt-4">
                   <MagneticButton strength={20} className="w-full">
-                    <Button type="submit" className="w-full h-20 text-xl font-black bg-[#FFB800] text-[#003322] hover:bg-[#FFB800]/90 rounded-none shadow-xl group" disabled={isSubmitting}>
+                    <Button type="submit" className="w-full h-20 text-xl font-black bg-[#FFB800] text-[#6A040F] hover:bg-[#FFB800]/90 rounded-none shadow-xl group" disabled={isSubmitting}>
                       {isSubmitting ? "SENDING..." : (
                         <span className="flex items-center justify-center">
                           SEND MESSAGE
@@ -176,7 +175,7 @@ export default function ContactPage() {
           className="absolute inset-0 grayscale brightness-90 group-hover:grayscale-0 transition-all duration-1000 bg-center bg-cover"
           style={{ backgroundImage: `url(https://picsum.photos/seed/school-map/1920/1080)` }}
         />
-        <div className="absolute inset-0 bg-[#003322]/40 group-hover:bg-transparent transition-all duration-1000 flex items-center justify-center">
+        <div className="absolute inset-0 bg-[#6A040F]/40 group-hover:bg-transparent transition-all duration-1000 flex items-center justify-center">
           <div className="bg-white p-8 shadow-2xl space-y-2 text-center">
             <h3 className="text-xl font-black uppercase font-headline">Visit Our Campus</h3>
             <p className="text-muted-foreground text-sm font-body">Tours available by appointment Mon-Fri, 9am - 4pm</p>

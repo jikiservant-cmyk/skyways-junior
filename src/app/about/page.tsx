@@ -1,4 +1,3 @@
-
 'use client';
 
 import Image from "next/image"
@@ -60,8 +59,8 @@ export default function AboutPage() {
         </div>
       </section>
 
-      {/* 2. Philosophy Section (High Contrast Green) */}
-      <section className="py-32 bg-[#003322] text-white">
+      {/* 2. Philosophy Section (High Contrast Red) */}
+      <section className="py-32 bg-[#6A040F] text-white">
         <div className="container mx-auto px-6 md:px-12">
           <div className="max-w-4xl mx-auto text-center space-y-12">
             <BlurFocusText>

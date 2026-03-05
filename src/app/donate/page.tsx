@@ -1,4 +1,3 @@
-
 "use client"
 
 import * as React from "react"
@@ -189,14 +188,14 @@ export default function DonatePage() {
       </section>
 
       {/* 3. Footer CTA Section */}
-      <section className="py-32 bg-[#003322] text-white text-center">
+      <section className="py-32 bg-[#6A040F] text-white text-center">
         <div className="container mx-auto px-6">
           <KineticHeadline 
             lines={["THANK YOU FOR", "YOUR SUPPORT"]} 
             className="text-4xl md:text-7xl font-black uppercase font-headline mb-16"
           />
           <MagneticButton strength={30}>
-            <Button className="bg-[#FFB800] text-[#003322] hover:bg-[#FFB800]/90 font-black h-20 px-16 rounded-full text-2xl group transition-all duration-500 shadow-2xl">
+            <Button className="bg-[#FFB800] text-[#6A040F] hover:bg-[#FFB800]/90 font-black h-20 px-16 rounded-full text-2xl group transition-all duration-500 shadow-2xl">
               EXPLORE GIVING <ArrowRight className="ml-4 h-8 w-8 group-hover:translate-x-2 transition-transform" />
             </Button>
           </MagneticButton>
