@@ -1,4 +1,3 @@
-
 "use client"
 
 import * as React from "react"
@@ -33,7 +32,10 @@ export function Navbar() {
               height={40}
               className="rounded-full group-hover:opacity-80 transition-opacity"
             />
-            <span className="ml-4 font-headline text-lg font-bold text-white hidden md:block">Skyways Junior School</span>
+            <div className="ml-4 hidden md:flex flex-col items-start leading-tight">
+              <span className="font-headline font-bold text-base text-white uppercase">SKYWAYS</span>
+              <span className="font-headline font-medium text-[0.7rem] text-white/70 uppercase tracking-widest">JUNIOR SCHOOL</span>
+            </div>
           </Link>
 
           {/* Desktop Links & Mobile Menu Button */}
