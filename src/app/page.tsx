@@ -60,6 +60,14 @@ export default function Home() {
       <section className="py-24 bg-white relative z-10">
         <div className="container mx-auto px-6 md:px-12">
           <div className="max-w-3xl mx-auto text-center">
+            <Image
+              src="https://picsum.photos/seed/foundation/150/150"
+              alt="Foundation for the Future"
+              width={150}
+              height={150}
+              className="rounded-full mx-auto mb-8"
+              data-ai-hint="children studying"
+            />
             <KineticHeadline 
               lines={["A Foundation for", "the Future."]}
               className="text-[#2D2B44] text-4xl md:text-5xl font-black mb-8 uppercase leading-tight font-headline"
