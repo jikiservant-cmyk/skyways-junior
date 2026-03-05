@@ -1,6 +1,7 @@
 'use client';
 
 import Link from "next/link"
+import Image from "next/image"
 import { ChevronDown, ArrowRight } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { PlaceHolderImages } from "@/app/lib/placeholder-images"
@@ -30,6 +31,13 @@ export default function Home() {
         
         <div className="container mx-auto px-6 relative z-10 flex justify-center">
           <div className="flex flex-col items-center text-white">
+            <Image
+              src="/images/Untitled (5).png"
+              alt="Skyways Junior School Logo"
+              width={100}
+              height={100}
+              className="mb-4"
+            />
             <KineticHeadline 
               lines={["WELCOME TO"]} 
               className="text-lg md:text-2xl font-bold uppercase tracking-[0.4em] mb-12 font-headline text-center"
