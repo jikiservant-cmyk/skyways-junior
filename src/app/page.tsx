@@ -73,7 +73,7 @@ export default function Home() {
       </section>
 
       {/* Image Reveal Section with Kinetic Headline */}
-      <section className="py-12 md:py-24 bg-[#3E3E4E] overflow-hidden">
+      <section className="py-12 md:py-24 bg-[#6A040F] overflow-hidden">
         <div className="container mx-auto px-6 md:px-12">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
             <div className="order-2 lg:order-1">
@@ -81,6 +81,7 @@ export default function Home() {
                 src={visionImg?.imageUrl || "/images/IMG_8930.JPG"}
                 alt="Our Mission"
                 className="rounded-lg shadow-2xl aspect-[4/3]"
+                maskColor="bg-[#6A040F]"
               />
             </div>
             <div className="order-1 lg:order-2 space-y-8 text-white">
@@ -95,7 +96,7 @@ export default function Home() {
               </InkFlowText>
               <MagneticButton>
                 <Link href="/about">
-                  <Button className="bg-[#FFB800] text-[#2D2B44] hover:bg-[#FFB800]/90 font-bold h-14 px-8 rounded-full text-lg group">
+                  <Button className="bg-[#FFB800] text-[#6A040F] hover:bg-[#FFB800]/90 font-bold h-14 px-8 rounded-full text-lg group">
                     Learn More
                     <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
                   </Button>
