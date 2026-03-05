@@ -5,7 +5,7 @@ import * as React from "react"
 import { Heart, ShieldCheck, CreditCard, Banknote, Smartphone, ArrowRight, Users, PlayCircle, Star } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
-import { Card, CardContent } from "@/components/ui/card"
+import { Card } from "@/components/ui/card"
 import { Switch } from "@/components/ui/switch"
 import { Label } from "@/components/ui/label"
 import { useToast } from "@/hooks/use-toast"
@@ -41,7 +41,7 @@ export default function DonatePage() {
         
         <div className="container mx-auto px-6 relative z-10 text-center">
           <KineticHeadline 
-            lines={["SUPPORT OUR", "MISSION"]} 
+            lines={["SUPPORT OUR", "SCHOOL"]} 
             className="text-6xl md:text-8xl lg:text-9xl font-black uppercase tracking-tighter leading-[0.85] font-serif text-[#FFB800]"
             staggerDelay={0.2}
           />
@@ -60,7 +60,7 @@ export default function DonatePage() {
                 <div className="p-8 md:p-12 space-y-10">
                   <div className="space-y-2">
                     <span className="text-[#FFB800] font-bold tracking-[0.3em] text-xs uppercase">Safe & Secure</span>
-                    <h2 className="text-3xl md:text-4xl font-bold text-white font-headline">Choose your gift</h2>
+                    <h2 className="text-3xl md:text-4xl font-bold text-white font-headline">Make Your Gift</h2>
                   </div>
 
                   {/* Big Amount Buttons */}
@@ -96,8 +96,8 @@ export default function DonatePage() {
                       <div className="flex items-center space-x-4">
                         <Heart className={`h-6 w-6 ${recurring ? 'text-[#FFB800] fill-[#FFB800]' : 'text-white/40'}`} />
                         <div>
-                          <p className="font-bold text-white uppercase tracking-wider text-sm">Monthly Giving</p>
-                          <p className="text-white/40 text-xs">Automate your impact</p>
+                          <p className="font-bold text-white uppercase tracking-wider text-sm">Recurring Gift</p>
+                          <p className="text-white/40 text-xs">Sustain our mission with a recurring gift.</p>
                         </div>
                       </div>
                       <Switch checked={recurring} onCheckedChange={setRecurring} className="data-[state=checked]:bg-[#FFB800]" />
@@ -126,13 +126,13 @@ export default function DonatePage() {
             {/* Right Column: The Impact */}
             <div className="space-y-16">
               <div className="space-y-8">
-                <span className="text-[#FFB800] font-black tracking-[0.4em] text-sm uppercase block">Why Your Giving Matters</span>
+                <span className="text-[#FFB800] font-black tracking-[0.4em] text-sm uppercase block">Your Impact</span>
                 <KineticHeadline 
-                  lines={["YOUR GENEROSITY", "FUELING FAITH"]} 
+                  lines={["YOUR GENEROSITY,", "THEIR FUTURE"]} 
                   className="text-4xl md:text-6xl font-black uppercase text-[#2D2B44] font-headline"
                 />
                 <InkFlowText className="text-muted-foreground text-xl leading-relaxed font-body max-w-xl">
-                  Every contribution, no matter the size, is a seed planted in our community. We believe in radical transparency and systemic change through collective action.
+                  Every contribution, no matter the size, is an investment in our students' futures. We are committed to transparency and using every gift to enhance the learning experience.
                 </InkFlowText>
               </div>
 
@@ -142,9 +142,9 @@ export default function DonatePage() {
                     <Users className="h-8 w-8 text-[#FFB800]" />
                   </div>
                   <div className="space-y-2">
-                    <h3 className="text-xl font-bold text-[#2D2B44] uppercase tracking-wide">Community Outreach</h3>
+                    <h3 className="text-xl font-bold text-[#2D2B44] uppercase tracking-wide">Student Scholarships</h3>
                     <InkFlowText delay={1} className="text-muted-foreground font-body leading-relaxed">
-                      Funding our local food pantry, shelter support, and educational programs for at-risk youth in the city center.
+                      Providing financial aid to deserving students and ensuring access to quality education for all.
                     </InkFlowText>
                   </div>
                 </div>
@@ -154,9 +154,9 @@ export default function DonatePage() {
                     <PlayCircle className="h-8 w-8 text-[#FFB800]" />
                   </div>
                   <div className="space-y-2">
-                    <h3 className="text-xl font-bold text-[#2D2B44] uppercase tracking-wide">Digital Ministry</h3>
+                    <h3 className="text-xl font-bold text-[#2D2B44] uppercase tracking-wide">Technology & Innovation</h3>
                     <InkFlowText delay={1.2} className="text-muted-foreground font-body leading-relaxed">
-                      Expanding our reach through high-quality live streaming and digital content to connect with those who cannot attend in person.
+                      Funding modern classroom technology, digital literacy programs, and innovative teaching tools.
                     </InkFlowText>
                   </div>
                 </div>
@@ -166,9 +166,9 @@ export default function DonatePage() {
                     <Star className="h-8 w-8 text-[#FFB800]" />
                   </div>
                   <div className="space-y-2">
-                    <h3 className="text-xl font-bold text-[#2D2B44] uppercase tracking-wide">Future Growth</h3>
+                    <h3 className="text-xl font-bold text-[#2D2B44] uppercase tracking-wide">Campus Development</h3>
                     <InkFlowText delay={1.4} className="text-muted-foreground font-body leading-relaxed">
-                      Contributing to our long-term vision of building a permanent community center for arts and spiritual guidance.
+                      Contributing to our long-term vision of expanding facilities and creating state-of-the-art learning spaces.
                     </InkFlowText>
                   </div>
                 </div>
@@ -192,12 +192,12 @@ export default function DonatePage() {
       <section className="py-32 bg-[#003322] text-white text-center">
         <div className="container mx-auto px-6">
           <KineticHeadline 
-            lines={["THANK YOU FOR BEING", "PART OF THE STORY"]} 
+            lines={["THANK YOU FOR", "YOUR SUPPORT"]} 
             className="text-4xl md:text-7xl font-black uppercase font-headline mb-16"
           />
           <MagneticButton strength={30}>
             <Button className="bg-[#FFB800] text-[#003322] hover:bg-[#FFB800]/90 font-black h-20 px-16 rounded-full text-2xl group transition-all duration-500 shadow-2xl">
-              JOIN THE MISSION <ArrowRight className="ml-4 h-8 w-8 group-hover:translate-x-2 transition-transform" />
+              EXPLORE GIVING <ArrowRight className="ml-4 h-8 w-8 group-hover:translate-x-2 transition-transform" />
             </Button>
           </MagneticButton>
         </div>

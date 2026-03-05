@@ -2,14 +2,13 @@
 "use client"
 
 import * as React from "react"
-import { Mail, Phone, MapPin, Send, MessageSquare, Heart } from "lucide-react"
+import { Mail, Phone, MapPin, Send, MessageSquare, Users } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Textarea } from "@/components/ui/textarea"
 import { Label } from "@/components/ui/label"
 import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group"
 import { useToast } from "@/hooks/use-toast"
-import { Card, CardContent } from "@/components/ui/card"
 import { KineticHeadline } from "@/components/KineticHeadline"
 import { MagneticButton } from "@/components/MagneticButton"
 import { InkFlowText } from "@/components/InkFlowText"
@@ -45,7 +44,7 @@ export default function ContactPage() {
         
         <div className="container mx-auto px-6 relative z-10 text-center">
           <KineticHeadline 
-            lines={["PLAN YOUR", "VISIT"]} 
+            lines={["GET IN", "TOUCH"]} 
             className="text-6xl md:text-8xl font-black uppercase tracking-tighter leading-[0.85] font-serif text-[#FFB800]"
             staggerDelay={0.2}
           />
@@ -57,12 +56,12 @@ export default function ContactPage() {
         <div className="container mx-auto px-6 md:px-12 max-w-6xl">
           <div className="text-center mb-20 space-y-6">
             <KineticHeadline 
-              lines={["WE'RE HERE FOR YOU"]} 
+              lines={["CONNECT WITH US"]} 
               className="text-4xl md:text-5xl font-black text-[#2D2B44] uppercase font-headline"
             />
             <InkFlowText className="text-muted-foreground text-xl font-body max-w-2xl mx-auto leading-relaxed">
-              Have a question about our services, or need someone to stand with you in prayer? 
-              Reach out and let us know how we can support you.
+              Have a question about admissions, or need more information about our programs?
+              Reach out and let us know how we can help.
             </InkFlowText>
           </div>
 
@@ -104,11 +103,10 @@ export default function ContactPage() {
               </div>
 
               <div className="p-10 bg-[#3E3E4E] text-white space-y-6 rounded-sm shadow-xl">
-                <Heart className="h-10 w-10 text-[#FFB800]" />
-                <h3 className="text-2xl font-black uppercase font-headline">Prayer Support</h3>
+                <Users className="h-10 w-10 text-[#FFB800]" />
+                <h3 className="text-2xl font-black uppercase font-headline">Admissions Office</h3>
                 <InkFlowText delay={1} className="text-white/70 font-body leading-relaxed text-sm">
-                  Our dedicated prayer team meets weekly to lift up your requests. 
-                  Every message is handled with the utmost care and confidentiality.
+                  Our admissions team is available to guide you through the application process and answer any questions you may have.
                 </InkFlowText>
               </div>
             </div>
@@ -140,8 +138,12 @@ export default function ContactPage() {
                       <Label htmlFor="r1" className="font-bold text-[#2D2B44] uppercase tracking-wide text-sm cursor-pointer group-hover:text-[#FFB800] transition-colors">General Inquiry</Label>
                     </div>
                     <div className="flex items-center space-x-3 group cursor-pointer">
-                      <RadioGroupItem value="prayer" id="r2" className="border-2 border-[#FFB800] text-[#FFB800]" />
-                      <Label htmlFor="r2" className="font-bold text-[#2D2B44] uppercase tracking-wide text-sm cursor-pointer group-hover:text-[#FFB800] transition-colors">Prayer Request</Label>
+                      <RadioGroupItem value="admissions" id="r2" className="border-2 border-[#FFB800] text-[#FFB800]" />
+                      <Label htmlFor="r2" className="font-bold text-[#2D2B44] uppercase tracking-wide text-sm cursor-pointer group-hover:text-[#FFB800] transition-colors">Admissions</Label>
+                    </div>
+                     <div className="flex items-center space-x-3 group cursor-pointer">
+                      <RadioGroupItem value="tour" id="r3" className="border-2 border-[#FFB800] text-[#FFB800]" />
+                      <Label htmlFor="r3" className="font-bold text-[#2D2B44] uppercase tracking-wide text-sm cursor-pointer group-hover:text-[#FFB800] transition-colors">Campus Tour</Label>
                     </div>
                   </RadioGroup>
                 </div>
@@ -173,12 +175,12 @@ export default function ContactPage() {
       <section className="h-[50vh] w-full bg-[#F5F5F5] relative group overflow-hidden">
         <div 
           className="absolute inset-0 grayscale brightness-90 group-hover:grayscale-0 transition-all duration-1000 bg-center bg-cover"
-          style={{ backgroundImage: `url(https://picsum.photos/seed/church-map/1920/1080)` }}
+          style={{ backgroundImage: `url(https://picsum.photos/seed/school-map/1920/1080)` }}
         />
         <div className="absolute inset-0 bg-[#003322]/40 group-hover:bg-transparent transition-all duration-1000 flex items-center justify-center">
           <div className="bg-white p-8 shadow-2xl space-y-2 text-center">
-            <h3 className="text-xl font-black uppercase font-headline">Visit Our Sanctuary</h3>
-            <p className="text-muted-foreground text-sm font-body">Open for quiet prayer Mon-Fri, 9am - 4pm</p>
+            <h3 className="text-xl font-black uppercase font-headline">Visit Our Campus</h3>
+            <p className="text-muted-foreground text-sm font-body">Tours available by appointment Mon-Fri, 9am - 4pm</p>
           </div>
         </div>
       </section>

@@ -6,8 +6,8 @@ import { Footer } from '@/components/Footer';
 import { Toaster } from '@/components/ui/toaster';
 
 export const metadata: Metadata = {
-  title: 'Skyways Junior School | Welcome Home',
-  description: 'A modern community dedicated to faith, hope, and love.',
+  title: 'Skyways Junior School | A Foundation for the Future',
+  description: 'A modern school community dedicated to academic excellence and character development.',
 };
 
 export default function RootLayout({

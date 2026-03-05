@@ -1,3 +1,4 @@
+
 'use client';
 
 import React from "react";
@@ -11,52 +12,52 @@ import { cn } from "@/lib/utils";
 
 const events = [
   {
-    day: "03",
-    month: "NOV",
-    title: "Youth Night: Glow in the Dark",
-    location: "Youth Center",
-    time: "6:30 PM",
-    image: "https://picsum.photos/seed/event-youth/600/800"
+    day: "15",
+    month: "MAR",
+    title: "Annual Science Fair",
+    location: "Main Hall",
+    time: "4:00 PM",
+    image: "https://picsum.photos/seed/event-science/600/800"
+  },
+  {
+    day: "22",
+    month: "MAR",
+    title: "Parent-Teacher Conferences",
+    location: "Various Classrooms",
+    time: "1:00 PM - 7:00 PM",
+    image: "https://picsum.photos/seed/event-conference/600/800"
+  },
+  {
+    day: "10",
+    month: "APR",
+    title: "Scholastic Book Fair",
+    location: "Library",
+    time: "All Day",
+    image: "https://picsum.photos/seed/event-books/600/800"
   },
   {
     day: "05",
-    month: "NOV",
-    title: "Community Outreach Lunch",
-    location: "Main Hall",
-    time: "12:30 PM",
-    image: "https://picsum.photos/seed/event-outreach/600/800"
-  },
-  {
-    day: "12",
-    month: "NOV",
-    title: "Marriage Seminar Weekend",
-    location: "Sanctuary",
-    time: "7:00 PM",
-    image: "https://picsum.photos/seed/event-marriage/600/800"
-  },
-  {
-    day: "15",
-    month: "NOV",
-    title: "Choir Rehearsal & Christmas",
-    location: "Music Room",
-    time: "7:00 PM",
-    image: "https://picsum.photos/seed/event-choir/600/800"
+    month: "MAY",
+    title: "Annual Sports Day",
+    location: "Sports Field",
+    time: "9:00 AM - 2:00 PM",
+    image: "https://picsum.photos/seed/event-sports/600/800"
   },
   {
     day: "18",
-    month: "NOV",
-    title: "Women's Coffee Morning",
-    location: "Fellowship Cafe",
-    time: "10:00 AM",
-    image: "https://picsum.photos/seed/event-women/600/800"
+    month: "MAY",
+    title: "Student Art Exhibition",
+    location: "Arts Center",
+    time: "6:00 PM",
+    image: "https://picsum.photos/seed/event-art/600/800"
   },
   {
-    day: "26",
-    month: "NOV",
-    title: "Baptism Service",
-    location: "North Garden",
-    time: "2:00 PM",
-    image: "https://picsum.photos/seed/event-baptism/600/800"
+    day: "02",
+    month: "JUN",
+    title: "End of Year Ceremony",
+    location: "Auditorium",
+    time: "11:00 AM",
+    image: "https://picsum.photos/seed/event-ceremony/600/800"
   }
 ];
 
@@ -89,19 +90,19 @@ export default function EventsPage() {
         <div className="w-full lg:w-2/5 bg-[#003322] flex flex-col justify-center p-12 md:p-20 text-white">
           <div className="space-y-6 slide-up">
             <span className="text-[#FFB800] font-serif text-3xl md:text-5xl font-black tracking-tighter block border-b-2 border-[#FFB800] w-fit pb-2">
-              OCT 24
+              SEP 05
             </span>
             <KineticHeadline 
-              lines={["ANNUAL", "GALA NIGHT"]} 
+              lines={["BACK TO", "SCHOOL NIGHT"]} 
               className="text-5xl md:text-7xl font-black uppercase font-headline leading-[0.85]"
             />
             <InkFlowText className="text-white/80 text-lg md:text-xl font-body leading-relaxed max-w-md">
-              A night of celebration and vision casting for the upcoming year. Join us for an evening of inspiration and community impact.
+              Join us to meet the teachers, learn about the curriculum, and connect with other families for the upcoming school year.
             </InkFlowText>
             <div className="pt-8">
               <MagneticButton>
                 <Button className="bg-[#FFB800] text-[#003322] hover:bg-[#FFB800]/90 font-black h-16 px-10 rounded-full text-xl group">
-                  RESERVE A SEAT <ArrowRight className="ml-2 h-6 w-6 group-hover:translate-x-1 transition-transform" />
+                  VIEW DETAILS <ArrowRight className="ml-2 h-6 w-6 group-hover:translate-x-1 transition-transform" />
                 </Button>
               </MagneticButton>
             </div>
@@ -113,7 +114,7 @@ export default function EventsPage() {
       <section className="relative z-10 py-24 bg-white/5 backdrop-blur-sm">
         <div className="container mx-auto px-6 md:px-12 text-center">
           <KineticHeadline 
-            lines={["UPCOMING", "GATHERINGS"]} 
+            lines={["SCHOOL", "CALENDAR"]} 
             className="text-white text-5xl md:text-8xl font-black uppercase tracking-tighter font-headline mb-6"
           />
           <div className="h-1 w-24 bg-[#FFB800] mx-auto" />
@@ -173,12 +174,12 @@ export default function EventsPage() {
       <section className="relative z-10 py-32 bg-[#003322] text-white text-center">
         <div className="container mx-auto px-6">
           <KineticHeadline 
-            lines={["NEVER MISS A MOMENT"]} 
+            lines={["STAY UP TO DATE"]} 
             className="text-4xl md:text-7xl font-black uppercase font-headline mb-12"
           />
           <MagneticButton>
             <Button variant="outline" className="border-[#FFB800] text-[#FFB800] hover:bg-[#FFB800] hover:text-[#003322] font-black h-20 px-12 rounded-full text-2xl group">
-              SUBSCRIBE TO CALENDAR <ArrowRight className="ml-2 h-8 w-8 group-hover:translate-x-2 transition-transform" />
+              VIEW FULL CALENDAR <ArrowRight className="ml-2 h-8 w-8 group-hover:translate-x-2 transition-transform" />
             </Button>
           </MagneticButton>
         </div>
