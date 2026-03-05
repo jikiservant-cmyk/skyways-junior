@@ -14,7 +14,7 @@ export function Footer() {
               </span>
             </Link>
             <p className="text-white/60 leading-relaxed font-body text-lg">
-              A foundation for the future, since 1995.
+              A mixed day & boarding school in Nansana, Kampala.
             </p>
             <div className="flex space-x-8">
               <Link href="#" className="hover:text-[#D12E8B] transition-all hover:scale-110"><Facebook className="h-6 w-6" /></Link>
@@ -28,8 +28,9 @@ export function Footer() {
             <h3 className="text-xl font-black mb-8 uppercase text-[#D12E8B] tracking-widest">Quick Links</h3>
             <ul className="space-y-4 text-lg font-bold">
               <li><Link href="/about" className="hover:text-[#D12E8B] transition-colors">About Us</Link></li>
+              <li><Link href="/academics" className="hover:text-[#D12E8B] transition-colors">Academics</Link></li>
+              <li><Link href="/student-life" className="hover:text-[#D12E8B] transition-colors">Student Life</Link></li>
               <li><Link href="/events" className="hover:text-[#D12E8B] transition-colors">Events</Link></li>
-              <li><Link href="/sermons" className="hover:text-[#D12E8B] transition-colors">Academics</Link></li>
               <li><Link href="/donate" className="hover:text-[#D12E8B] transition-colors">Donate</Link></li>
             </ul>
           </div>
@@ -48,11 +49,11 @@ export function Footer() {
             <ul className="space-y-6">
               <li className="flex items-start space-x-4">
                 <MapPin className="h-6 w-6 text-[#D12E8B] mt-1 shrink-0" />
-                <span className="text-white/60 text-lg">Skyways Junior School, 9GGV+56F, Nabweru Rd, Kampala</span>
+                <span className="text-white/60 text-lg">Nansana Town, behind Nansana Police Station, Kampala</span>
               </li>
               <li className="flex items-center space-x-4">
                 <Phone className="h-6 w-6 text-[#D12E8B] shrink-0" />
-                <span className="text-white/60 text-lg">(555) 123-4567</span>
+                <span className="text-white/60 text-lg">0704571046 / 074814454</span>
               </li>
               <li className="flex items-center space-x-4">
                 <Mail className="h-6 w-6 text-[#D12E8B] shrink-0" />

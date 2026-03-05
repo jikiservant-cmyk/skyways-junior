@@ -60,8 +60,7 @@ export default function ContactPage() {
               className="text-4xl md:text-5xl font-black text-[#2D2B44] uppercase font-headline"
             />
             <InkFlowText className="text-muted-foreground text-xl font-body max-w-2xl mx-auto leading-relaxed">
-              Have a question about admissions, or need more information about our programs?
-              Reach out and let us know how we can help.
+              Admissions are open for both kindergarten and primary levels. Have a question, or need more information about our programs? Reach out and let us know how we can help.
             </InkFlowText>
           </div>
 
@@ -77,7 +76,7 @@ export default function ContactPage() {
                   </div>
                   <div className="space-y-1">
                     <h3 className="text-lg font-bold text-[#2D2B44] uppercase tracking-wide">Location</h3>
-                    <p className="text-muted-foreground font-body">Skyways Junior School, 9GGV+56F, Nabweru Rd, Kampala</p>
+                    <p className="text-muted-foreground font-body">Nansana Town, behind Nansana Police Station, Kampala</p>
                   </div>
                 </div>
 
@@ -87,7 +86,7 @@ export default function ContactPage() {
                   </div>
                   <div className="space-y-1">
                     <h3 className="text-lg font-bold text-[#2D2B44] uppercase tracking-wide">Phone</h3>
-                    <p className="text-muted-foreground font-body">(555) 123-4567</p>
+                    <p className="text-muted-foreground font-body">0704571046 / 074814454</p>
                   </div>
                 </div>
 
@@ -106,7 +105,7 @@ export default function ContactPage() {
                 <Users className="h-10 w-10 text-[#FFB800]" />
                 <h3 className="text-2xl font-black uppercase font-headline">Admissions Office</h3>
                 <InkFlowText delay={1} className="text-white/70 font-body leading-relaxed text-sm">
-                  Our admissions team is available to guide you through the application process and answer any questions you may have.
+                  Our admissions team is available to guide you through the application process and answer any questions you may have. Admissions are currently open!
                 </InkFlowText>
               </div>
             </div>

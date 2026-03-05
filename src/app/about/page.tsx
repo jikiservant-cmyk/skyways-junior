@@ -72,11 +72,7 @@ export default function AboutPage() {
             
             <div className="space-y-8">
               <InkFlowText delay={0.8} className="text-xl md:text-2xl font-body leading-relaxed text-white/90">
-                Skyways Junior School provides a nurturing environment where students are encouraged to achieve academic excellence and develop a lifelong love for learning.
-              </InkFlowText>
-              
-              <InkFlowText delay={1.2} className="text-lg text-white/70 font-body leading-relaxed max-w-2xl mx-auto">
-                Founded in 1995, we started as a small community initiative and have grown into a leading junior school, shaping young minds for a bright future.
+                At Skyways Junior School, we believe in holistic child development. Our focus is on nurturing the "hidden spark" in each child by emphasizing not just academic excellence, but also creativity, confidence, and character.
               </InkFlowText>
             </div>
             
@@ -98,7 +94,7 @@ export default function AboutPage() {
               />
               <Separator className="bg-[#2D2B44]/10 w-32 h-[2px]" />
               <InkFlowText className="text-muted-foreground text-lg leading-relaxed font-body">
-                Our history is a story of commitment to academic excellence and community. We believe in embracing innovative teaching methods while holding true to our core values.
+                Founded in 1995, Skyways Junior School has grown from a small community initiative into a leading mixed day and boarding primary school in Nansana. Our journey is one of commitment to providing a holistic education for kindergarten and primary levels.
               </InkFlowText>
             </div>
             <div className="relative aspect-[4/3] rounded-2xl overflow-hidden shadow-2xl">
