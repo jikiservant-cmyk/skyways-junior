@@ -59,7 +59,7 @@ export default function Home() {
             <InkFlowText className="text-muted-foreground text-lg mb-10 leading-relaxed font-body">
               Skyways Junior School is a mixed day and boarding primary school in Nansana, Kampala. Our mission is to provide an enriching education that fosters academic excellence, creativity, and character development, igniting the hidden spark in every child.
             </InkFlowText>
-            <div className="h-1 w-20 bg-[#D12E8B] mx-auto" />
+            <div className="h-1 w-20 bg-[#FFB800] mx-auto" />
           </div>
         </div>
       </section>
@@ -76,7 +76,7 @@ export default function Home() {
               />
             </div>
             <div className="order-1 lg:order-2 space-y-8 text-white">
-              <span className="text-[#D12E8B] font-bold uppercase tracking-widest">Our Mission</span>
+              <span className="text-[#FFB800] font-bold uppercase tracking-widest">Our Mission</span>
               <KineticHeadline 
                 lines={["INSPIRING A", "LOVE OF LEARNING"]}
                 className="text-4xl md:text-6xl font-black uppercase font-headline leading-none"
@@ -87,7 +87,7 @@ export default function Home() {
               </InkFlowText>
               <MagneticButton>
                 <Link href="/about">
-                  <Button className="bg-[#D12E8B] hover:bg-[#B02675] text-white font-bold h-14 px-8 rounded-full text-lg group">
+                  <Button className="bg-[#FFB800] text-[#2D2B44] hover:bg-[#FFB800]/90 font-bold h-14 px-8 rounded-full text-lg group">
                     Learn More
                     <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
                   </Button>
@@ -103,24 +103,24 @@ export default function Home() {
         <div className="container mx-auto px-6 md:px-12">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <Link href="/events" className="group">
-              <div className="bg-white p-10 h-full shadow-sm hover:shadow-xl transition-all duration-300 border-t-4 border-[#D12E8B]">
+              <div className="bg-white p-10 h-full shadow-sm hover:shadow-xl transition-all duration-300 border-t-4 border-[#FFB800]">
                 <KineticHeadline lines={["Events"]} className="text-2xl font-black text-[#2D2B44] mb-4 uppercase font-headline" />
                 <InkFlowText className="text-muted-foreground mb-6 text-base font-body">Stay updated with our school calendar and special events.</InkFlowText>
-                <span className="text-[#D12E8B] font-bold text-sm tracking-widest uppercase">View Calendar →</span>
+                <span className="text-[#FFB800] font-bold text-sm tracking-widest uppercase">View Calendar →</span>
               </div>
             </Link>
             <Link href="/academics" className="group">
-              <div className="bg-white p-10 h-full shadow-sm hover:shadow-xl transition-all duration-300 border-t-4 border-[#D12E8B]">
+              <div className="bg-white p-10 h-full shadow-sm hover:shadow-xl transition-all duration-300 border-t-4 border-[#FFB800]">
                 <KineticHeadline lines={["Academics"]} className="text-2xl font-black text-[#2D2B44] mb-4 uppercase font-headline" />
                 <InkFlowText className="text-muted-foreground mb-6 text-base font-body">Explore our comprehensive curriculum and learning programs.</InkFlowText>
-                <span className="text-[#D12E8B] font-bold text-sm tracking-widest uppercase">Explore →</span>
+                <span className="text-[#FFB800] font-bold text-sm tracking-widest uppercase">Explore →</span>
               </div>
             </Link>
             <Link href="/donate" className="group">
-              <div className="bg-white p-10 h-full shadow-sm hover:shadow-xl transition-all duration-300 border-t-4 border-[#D12E8B]">
+              <div className="bg-white p-10 h-full shadow-sm hover:shadow-xl transition-all duration-300 border-t-4 border-[#FFB800]">
                 <KineticHeadline lines={["Support Us"]} className="text-2xl font-black text-[#2D2B44] mb-4 uppercase font-headline" />
                 <InkFlowText className="text-muted-foreground mb-6 text-base font-body">Partner with us in our mission through secure online giving.</InkFlowText>
-                <span className="text-[#D12E8B] font-bold text-sm tracking-widest uppercase">Give Now →</span>
+                <span className="text-[#FFB800] font-bold text-sm tracking-widest uppercase">Give Now →</span>
               </div>
             </Link>
           </div>
