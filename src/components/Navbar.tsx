@@ -27,11 +27,11 @@ export function Navbar() {
           {/* Logo */}
           <Link href="/" className="flex items-center group">
             <Image
-              src="/images/images.jpg"
+              src="/images/Untitled (5).png"
               alt="Skyways Junior School Logo"
-              width={40}
-              height={40}
-              className="rounded-full group-hover:opacity-80 transition-opacity"
+              width={50}
+              height={50}
+              className="group-hover:opacity-80 transition-opacity"
             />
             <div className="ml-4 hidden md:flex flex-col items-start leading-tight">
               <span className="font-headline font-bold text-base text-white uppercase">SKYWAYS</span>
