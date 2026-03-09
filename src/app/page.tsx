@@ -148,32 +148,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Admissions Desk Section */}
-      <section className="py-24 bg-white relative z-10">
-        <div className="container mx-auto px-6 md:px-12">
-          <div className="max-w-3xl mx-auto text-center">
-            <div className="inline-block p-6 bg-[#F5F5F5] rounded-full shadow-lg mb-8">
-              <UserCheck className="h-12 w-12 text-[#FFB800]" />
-            </div>
-            <KineticHeadline 
-              lines={["Admissions Desk"]}
-              className="text-[#2D2B44] text-4xl md:text-5xl font-black mb-6 uppercase leading-tight font-headline"
-            />
-            <InkFlowText className="text-muted-foreground text-lg mb-10 leading-relaxed font-body">
-              Admissions are open for kindergarten and primary levels. Our team is ready to welcome you and guide you through the simple application process.
-            </InkFlowText>
-            <MagneticButton>
-              <Link href="/contact">
-                <Button className="bg-[#FFB800] text-[#6A040F] hover:bg-[#FFB800]/90 font-bold h-14 px-8 rounded-full text-lg group">
-                  Contact Admissions
-                  <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
-                </Button>
-              </Link>
-            </MagneticButton>
-          </div>
-        </div>
-      </section>
-
       {/* Quick Links Section */}
       <section className="py-20 bg-[#F5F5F5] relative z-10">
         <div className="container mx-auto px-6 md:px-12">
@@ -195,6 +169,16 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      {/* Floating Admissions Desk Button */}
+      <Link href="/contact" className="fixed bottom-10 right-10 z-50 group">
+        <MagneticButton>
+            <div className="bg-[#FFB800] text-[#6A040F] hover:bg-[#FFB800]/90 font-black h-14 px-6 rounded-full text-lg shadow-2xl flex items-center space-x-3 transition-all duration-300 group-hover:shadow-lg">
+                <UserCheck className="h-6 w-6" />
+                <span className="whitespace-nowrap">Admissions Desk</span>
+            </div>
+        </MagneticButton>
+      </Link>
     </div>
   )
 }
