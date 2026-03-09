@@ -2,7 +2,7 @@
 
 import Link from "next/link"
 import Image from "next/image"
-import { ChevronDown, ArrowRight } from "lucide-react"
+import { ChevronDown, ArrowRight, UserCheck } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { PlaceHolderImages } from "@/app/lib/placeholder-images"
 import { ImageReveal } from "@/components/ImageReveal"
@@ -30,7 +30,7 @@ export default function Home() {
         </div>
         
         <div className="container mx-auto px-6 relative z-10 flex justify-center">
-          <div className="flex flex-col items-center text-white">
+          <div className="flex flex-col items-center text-white text-center">
             <Image
               src="/images/Untitled (5).png"
               alt="Skyways Junior School Logo"
@@ -111,6 +111,65 @@ export default function Home() {
                 </Link>
               </MagneticButton>
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* About the School Section */}
+      <section className="py-24 bg-[#F5F5F5]">
+        <div className="container mx-auto px-6 md:px-12">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+            <div className="space-y-8">
+              <span className="text-[#FFB800] font-bold uppercase tracking-widest">About the school</span>
+              <KineticHeadline 
+                lines={["A Legacy of", "Excellence"]}
+                className="text-4xl md:text-6xl font-black uppercase font-headline leading-none text-[#2D2B44]"
+              />
+              <InkFlowText className="text-muted-foreground text-lg font-body leading-relaxed max-w-xl">
+                Since 1995, Skyways Junior School has been a cornerstone of the Nansana community, dedicated to providing a holistic and transformative education for generations of students.
+              </InkFlowText>
+              <MagneticButton>
+                <Link href="/about">
+                  <Button variant="outline" className="border-[#2D2B44] text-[#2D2B44] hover:bg-[#2D2B44] hover:text-white font-bold h-14 px-8 rounded-full text-lg group">
+                    Our History
+                    <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
+                  </Button>
+                </Link>
+              </MagneticButton>
+            </div>
+            <div>
+              <ImageReveal 
+                src="https://picsum.photos/seed/school-building-2/800/600"
+                alt="School Building"
+                className="rounded-lg shadow-2xl aspect-[4/3]"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Admissions Desk Section */}
+      <section className="py-24 bg-white relative z-10">
+        <div className="container mx-auto px-6 md:px-12">
+          <div className="max-w-3xl mx-auto text-center">
+            <div className="inline-block p-6 bg-[#F5F5F5] rounded-full shadow-lg mb-8">
+              <UserCheck className="h-12 w-12 text-[#FFB800]" />
+            </div>
+            <KineticHeadline 
+              lines={["Admissions Desk"]}
+              className="text-[#2D2B44] text-4xl md:text-5xl font-black mb-6 uppercase leading-tight font-headline"
+            />
+            <InkFlowText className="text-muted-foreground text-lg mb-10 leading-relaxed font-body">
+              Admissions are open for kindergarten and primary levels. Our team is ready to welcome you and guide you through the simple application process.
+            </InkFlowText>
+            <MagneticButton>
+              <Link href="/contact">
+                <Button className="bg-[#FFB800] text-[#6A040F] hover:bg-[#FFB800]/90 font-bold h-14 px-8 rounded-full text-lg group">
+                  Contact Admissions
+                  <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
+                </Button>
+              </Link>
+            </MagneticButton>
           </div>
         </div>
       </section>
