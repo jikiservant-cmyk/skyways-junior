@@ -33,7 +33,7 @@ export default function GalleryPage() {
           <div 
             className="fixed inset-0 w-full h-full bg-center bg-cover -z-10 brightness-[0.3]"
             style={{
-              backgroundImage: `url(/images/622369574_1432212165364735_7324286455604369317_n.jpg)`,
+              backgroundImage: `url(/images/536273638_1310557530863533_3505997153391998666_n.jpg)`,
             }}
           />
         </div>
