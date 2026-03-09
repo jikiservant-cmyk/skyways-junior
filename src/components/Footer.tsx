@@ -13,7 +13,7 @@ export function Footer() {
   }, []);
 
   return (
-    <footer className="bg-[#2D2B44] text-white pt-24 pb-12">
+    <footer className="bg-[#2D2B44] text-white pt-24 pb-12 relative z-20">
       <div className="container mx-auto px-6 md:px-12">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-16">
           <div className="space-y-8">
