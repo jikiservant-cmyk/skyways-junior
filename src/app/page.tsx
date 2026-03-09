@@ -22,7 +22,7 @@ export default function Home() {
           <div 
             className="fixed inset-0 w-full h-full bg-center bg-cover -z-10"
             style={{
-              backgroundImage: `url(${heroImg?.imageUrl || "https://picsum.photos/seed/school-hero/1920/1080"})`,
+              backgroundImage: `url(${heroImg?.imageUrl || "/images/486466805_1187679933151294_7895560268502234535_n.jpg"})`,
               filter: 'grayscale(0.5) brightness(0.7)'
             }}
           />
@@ -61,12 +61,11 @@ export default function Home() {
         <div className="container mx-auto px-6 md:px-12">
           <div className="max-w-3xl mx-auto text-center">
             <Image
-              src="https://picsum.photos/seed/foundation/150/150"
+              src="/images/540376961_1310557400863546_3654499630922540646_n.jpg"
               alt="Foundation for the Future"
               width={150}
               height={150}
               className="rounded-full mx-auto mb-8"
-              data-ai-hint="children studying"
             />
             <KineticHeadline 
               lines={["A Foundation for", "the Future."]}
@@ -86,7 +85,7 @@ export default function Home() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
             <div className="order-2 lg:order-1">
               <ImageReveal 
-                src={visionImg?.imageUrl || "/images/IMG_8930.JPG"}
+                src={visionImg?.imageUrl || "/images/484688063_1181339383785349_6300749383438108902_n.jpg"}
                 alt="Our Mission"
                 className="rounded-lg shadow-2xl aspect-[4/3]"
                 maskColor="bg-[#6A040F]"
@@ -139,7 +138,7 @@ export default function Home() {
             </div>
             <div>
               <ImageReveal 
-                src="https://picsum.photos/seed/school-building-2/800/600"
+                src="/images/559452582_1348782660374353_1719964045368134275_n.jpg"
                 alt="School Building"
                 className="rounded-lg shadow-2xl aspect-[4/3]"
               />

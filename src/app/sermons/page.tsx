@@ -13,7 +13,7 @@ const academicPrograms = [
   {
     title: "EARLY YEARS PROGRAM",
     description: "Our Early Years program (Ages 3-5) focuses on play-based learning and social development in a safe, nurturing environment, building a strong foundation for future success.",
-    image: "https://picsum.photos/seed/early-years/800/800",
+    image: "/images/484688063_1181339383785349_6300749383438108902_n.jpg",
     bgColor: "bg-[#3E3E4E]",
     textColor: "text-white",
     btnClass: "bg-[#FFB800] text-[#3E3E4E] hover:bg-[#FFB800]/90"
@@ -21,7 +21,7 @@ const academicPrograms = [
   {
     title: "LOWER PRIMARY",
     description: "In Lower Primary (Ages 6-8), we focus on core subjects like literacy and numeracy, fostering curiosity and critical thinking through interactive lessons and collaborative projects.",
-    image: "https://picsum.photos/seed/lower-primary/800/800",
+    image: "/images/486353896_1187679929817961_4724554373967953301_n.jpg",
     bgColor: "bg-[#6A040F]",
     textColor: "text-white",
     btnClass: "border-[#FFB800] text-[#FFB800] hover:bg-[#FFB800] hover:text-[#6A040F]"
@@ -29,7 +29,7 @@ const academicPrograms = [
   {
     title: "UPPER PRIMARY",
     description: "Our Upper Primary curriculum (Ages 9-12) challenges students with advanced topics, promoting leadership, independent research, and preparation for secondary education.",
-    image: "https://picsum.photos/seed/upper-primary/800/800",
+    image: "/images/486460421_1187679879817966_8937100076930363422_n.jpg",
     bgColor: "bg-[#3E3E4E]",
     textColor: "text-white",
     btnClass: "bg-[#FFB800] text-[#3E3E4E] hover:bg-[#FFB800]/90"
@@ -37,7 +37,7 @@ const academicPrograms = [
   {
     title: "ARTS & MUSIC",
     description: "The Arts & Music program encourages creative expression through visual arts, drama, and music, allowing students to discover and develop their unique artistic talents.",
-    image: "https://picsum.photos/seed/arts-music/800/800",
+    image: "/images/486466805_1187679933151294_7895560268502234535_n.jpg",
     bgColor: "bg-[#6A040F]",
     textColor: "text-white",
     btnClass: "border-[#FFB800] text-[#FFB800] hover:bg-[#FFB800] hover:text-[#6A040F]"
@@ -45,7 +45,7 @@ const academicPrograms = [
   {
     title: "ATHLETICS",
     description: "Our athletics program promotes physical fitness, teamwork, and sportsmanship. We offer a variety of sports to encourage a healthy and active lifestyle.",
-    image: "https://picsum.photos/seed/athletics/800/800",
+    image: "/images/486505257_1187679883151299_6568489799441534202_n.jpg",
     bgColor: "bg-[#3E3E4E]",
     textColor: "text-white",
     btnClass: "bg-[#FFB800] text-[#3E3E4E] hover:bg-[#FFB800]/90"
@@ -53,7 +53,7 @@ const academicPrograms = [
   {
     title: "TECHNOLOGY & CODING",
     description: "We equip students for the digital age with programs in coding, robotics, and digital literacy, fostering problem-solving skills and innovation.",
-    image: "https://picsum.photos/seed/coding-tech/800/800",
+    image: "/images/486546213_1187673866485234_8327242758086334742_n.jpg",
     bgColor: "bg-[#6A040F]",
     textColor: "text-white",
     btnClass: "border-[#FFB800] text-[#FFB800] hover:bg-[#FFB800] hover:text-[#6A040F]"
@@ -69,7 +69,7 @@ export default function AcademicsPage() {
           <div 
             className="fixed inset-0 w-full h-full bg-center bg-cover -z-10 grayscale brightness-[0.4]"
             style={{
-              backgroundImage: `url(https://picsum.photos/seed/academics-hero/1920/1080)`,
+              backgroundImage: `url(/images/images.jpg)`,
             }}
           />
         </div>

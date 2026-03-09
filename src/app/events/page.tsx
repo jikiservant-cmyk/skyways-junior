@@ -16,7 +16,7 @@ const events = [
     title: "Annual Science Fair",
     location: "Main Hall",
     time: "4:00 PM",
-    image: "https://picsum.photos/seed/event-science/600/800"
+    image: "/images/484688063_1181339383785349_6300749383438108902_n.jpg"
   },
   {
     day: "22",
@@ -24,7 +24,7 @@ const events = [
     title: "Parent-Teacher Conferences",
     location: "Various Classrooms",
     time: "1:00 PM - 7:00 PM",
-    image: "https://picsum.photos/seed/event-conference/600/800"
+    image: "/images/486353896_1187679929817961_4724554373967953301_n.jpg"
   },
   {
     day: "10",
@@ -32,7 +32,7 @@ const events = [
     title: "Scholastic Book Fair",
     location: "Library",
     time: "All Day",
-    image: "https://picsum.photos/seed/event-books/600/800"
+    image: "/images/486460421_1187679879817966_8937100076930363422_n.jpg"
   },
   {
     day: "05",
@@ -40,7 +40,7 @@ const events = [
     title: "Annual Sports Day",
     location: "Sports Field",
     time: "9:00 AM - 2:00 PM",
-    image: "https://picsum.photos/seed/event-sports/600/800"
+    image: "/images/486466805_1187679933151294_7895560268502234535_n.jpg"
   },
   {
     day: "18",
@@ -48,7 +48,7 @@ const events = [
     title: "Student Art Exhibition",
     location: "Arts Center",
     time: "6:00 PM",
-    image: "https://picsum.photos/seed/event-art/600/800"
+    image: "/images/486505257_1187679883151299_6568489799441534202_n.jpg"
   },
   {
     day: "02",
@@ -56,7 +56,7 @@ const events = [
     title: "End of Year Ceremony",
     location: "Auditorium",
     time: "11:00 AM",
-    image: "https://picsum.photos/seed/event-ceremony/600/800"
+    image: "/images/486546213_1187673866485234_8327242758086334742_n.jpg"
   }
 ];
 
@@ -68,7 +68,7 @@ export default function EventsPage() {
         <div 
           className="fixed inset-0 w-full h-full bg-center bg-cover grayscale-[0.5] brightness-[0.3]"
           style={{
-            backgroundImage: `url(https://picsum.photos/seed/forest-road/1920/1080)`,
+            backgroundImage: `url(/images/images.jfif)`,
           }}
         />
       </div>
@@ -78,7 +78,7 @@ export default function EventsPage() {
         {/* Left: Moody Photo with subtle zoom */}
         <div className="w-full lg:w-3/5 relative min-h-[400px] lg:min-h-full overflow-hidden group">
           <ImageReveal 
-            src="https://picsum.photos/seed/featured-event/1200/800" 
+            src="/images/images.jpg" 
             alt="Featured Event" 
             className="w-full h-full grayscale brightness-75 transition-transform duration-[10000ms] group-hover:scale-110"
           />

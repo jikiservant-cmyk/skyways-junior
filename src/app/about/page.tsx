@@ -16,24 +16,24 @@ const team = [
     name: "Mubiru Florence",
     role: "Head of School",
     bio: "Visionary leader dedicated to fostering academic and personal growth.",
-    image: PlaceHolderImages.find(img => img.id === 'pastor-florence')?.imageUrl || "https://picsum.photos/seed/p1/400/500"
+    image: PlaceHolderImages.find(img => img.id === 'pastor-florence')?.imageUrl || "/images/586171317_1380437347208884_1992856856938756084_n.jpg"
   },
   {
     name: "Kembabazi Rose",
     role: "Director of Admissions",
     bio: "Passionate about connecting families with our vibrant school community.",
-    image: PlaceHolderImages.find(img => img.id === 'director-rose')?.imageUrl || "/images/IMG_8891.jpg"
+    image: PlaceHolderImages.find(img => img.id === 'director-rose')?.imageUrl || "/images/595073746_1394167455835873_8744553215477993611_n.jpg"
   },
   {
     name: "Sebalamu Geoffrey",
     role: "Head of Arts & Music",
     bio: "Inspiring creativity and artistic expression in every student.",
-    image: PlaceHolderImages.find(img => img.id === 'creative-geoffrey')?.imageUrl || "https://picsum.photos/seed/p3/400/500"
+    image: PlaceHolderImages.find(img => img.id === 'creative-geoffrey')?.imageUrl || "/images/595114440_1394167532502532_5661739246197434066_n.jpg"
   }
 ]
 
 export default function AboutPage() {
-  const historyImg = PlaceHolderImages.find(img => img.id === 'about-history')?.imageUrl || "/images/IMG_8919.jpg";
+  const historyImg = PlaceHolderImages.find(img => img.id === 'about-history')?.imageUrl || "/images/595121085_1394167489169203_1099132399639901259_n.jpg";
 
   return (
     <div className="flex flex-col w-full">
@@ -43,7 +43,7 @@ export default function AboutPage() {
           <div 
             className="fixed inset-0 w-full h-full bg-center bg-cover -z-10 grayscale-[0.3] brightness-[0.4]"
             style={{
-              backgroundImage: `url(https://picsum.photos/seed/school-building/1920/1080)`,
+              backgroundImage: `url(/images/560020689_1348782107041075_5027888620366757027_n.jpg)`,
             }}
           />
         </div>

@@ -15,28 +15,28 @@ const activities = [
     title: "Debate Club",
     description: "Sharpen your public speaking and critical thinking skills in a lively, supportive environment. Tackle interesting topics and learn the art of persuasion.",
     category: "Academic",
-    image: "https://picsum.photos/seed/pod4/400/400"
+    image: "/images/500844448_1240279234558030_4427405816133751754_n.jpg"
   },
   {
     icon: Users,
     title: "Student Council",
     description: "Develop leadership skills and make a real impact on school life. Represent your peers and help organize events and initiatives.",
     category: "Leadership",
-    image: "https://picsum.photos/seed/pod1/400/400"
+    image: "/images/536273638_1310557530863533_3505997153391998666_n.jpg"
   },
   {
     icon: Mic,
     title: "School Choir & Band",
     description: "Join our talented musical groups to perform at school events and competitions. A perfect place for students passionate about voice or instruments.",
     category: "Arts",
-    image: "https://picsum.photos/seed/pod2/400/400"
+    image: "/images/540376961_1310557400863546_3654499630922540646_n.jpg"
   },
   {
     icon: Palmtree,
     title: "Environmental Club",
     description: "Passionate about protecting our planet? Join us for projects on recycling, conservation, and promoting sustainability within our school community.",
     category: "Community",
-    image: "https://picsum.photos/seed/pod3/400/400"
+    image: "/images/559452582_1348782660374353_1719964045368134275_n.jpg"
   }
 ];
 
@@ -50,7 +50,7 @@ export default function StudentLifePage() {
           <BlurFocusText className="relative aspect-square w-full max-w-md">
              <div className="absolute inset-0 bg-[#FFB800]/20 blur-3xl rounded-full scale-110 opacity-30 animate-pulse" />
              <ImageReveal 
-              src="https://picsum.photos/seed/robotics-club/800/800" 
+              src="/images/492060854_1210449664207654_2349882474470258698_n.jpg" 
               alt="Featured Program Cover" 
               className="w-full h-full shadow-2xl rounded-sm"
             />
