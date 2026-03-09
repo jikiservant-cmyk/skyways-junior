@@ -50,7 +50,7 @@ export default function StudentLifePage() {
           <BlurFocusText className="relative aspect-square w-full max-w-md">
              <div className="absolute inset-0 bg-[#FFB800]/20 blur-3xl rounded-full scale-110 opacity-30 animate-pulse" />
              <ImageReveal 
-              src="/images/492060854_1210449664207654_2349882474470258698_n.jpg" 
+              src="/images/560020689_1348782107041075_5027888620366757027_n.jpg" 
               alt="Featured Program Cover" 
               className="w-full h-full shadow-2xl rounded-sm"
             />
