@@ -66,9 +66,9 @@ export default function EventsPage() {
       {/* Parallax Background Wrapper */}
       <div className="fixed inset-0 w-full h-full pointer-events-none z-0" style={{ clipPath: 'inset(0)' }}>
         <div 
-          className="fixed inset-0 w-full h-full bg-center bg-cover brightness-[0.3]"
+          className="fixed inset-0 w-full h-full bg-center bg-cover"
           style={{
-            backgroundImage: `url(/images/images.jfif)`,
+            backgroundImage: `url(/images/492060854_1210449664207654_2349882474470258698_n.jpg)`,
           }}
         />
       </div>
@@ -78,9 +78,9 @@ export default function EventsPage() {
         {/* Left: Moody Photo with subtle zoom */}
         <div className="w-full lg:w-3/5 relative min-h-[400px] lg:min-h-full overflow-hidden group">
           <ImageReveal 
-            src="/images/images.jpg" 
+            src="/images/492060854_1210449664207654_2349882474470258698_n.jpg" 
             alt="Featured Event" 
-            className="w-full h-full brightness-75 transition-transform duration-[10000ms] group-hover:scale-110"
+            className="w-full h-full transition-transform duration-[10000ms] group-hover:scale-110"
           />
           <div className="absolute inset-0 bg-gradient-to-r from-black/60 to-transparent lg:hidden" />
         </div>
