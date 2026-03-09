@@ -69,7 +69,7 @@ export default function AcademicsPage() {
           <div 
             className="fixed inset-0 w-full h-full bg-center bg-cover -z-10 brightness-[0.4]"
             style={{
-              backgroundImage: `url(/images/608902824_1415677727018179_2868253638662345757_n.jpg)`,
+              backgroundImage: `url(/images/492060854_1210449664207654_2349882474470258698_n.jpg)`,
             }}
           />
         </div>
