@@ -93,11 +93,11 @@ export default function AcademicsPage() {
             i % 2 === 0 ? "lg:flex-row" : "lg:flex-row-reverse"
           )}>
             {/* Image Block */}
-            <div className="w-full lg:w-1/2 relative min-h-[400px] lg:min-h-full">
+            <div className="w-full lg:w-1/2 relative h-[400px] lg:h-auto">
               <ImageReveal 
                 src={prog.image} 
                 alt={prog.title} 
-                className="w-full h-full brightness-75 transition-all duration-1000"
+                className="w-full h-full transition-all duration-1000"
                 maskColor={prog.bgColor === "bg-[#3E3E4E]" ? "bg-[#3E3E4E]" : "bg-[#6A040F]"}
               />
             </div>
