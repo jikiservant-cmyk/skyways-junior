@@ -34,7 +34,7 @@ export function Navbar() {
               height={50}
               className="group-hover:opacity-80 transition-opacity"
             />
-            <div className="ml-4 hidden md:flex flex-col items-start leading-tight">
+            <div className="ml-4 flex flex-col items-start leading-tight">
               <span className="font-headline font-bold text-base text-white uppercase">SKYWAYS</span>
               <span className="font-headline font-medium text-[0.7rem] text-white/70 uppercase tracking-widest">JUNIOR SCHOOL</span>
             </div>
