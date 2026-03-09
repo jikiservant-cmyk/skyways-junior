@@ -23,7 +23,7 @@ export default function Home() {
             className="fixed inset-0 w-full h-full bg-center bg-cover -z-10"
             style={{
               backgroundImage: `url(${heroImg?.imageUrl || "/images/486466805_1187679933151294_7895560268502234535_n.jpg"})`,
-              filter: 'grayscale(0.5) brightness(0.7)'
+              filter: 'brightness(0.7)'
             }}
           />
           <div className="absolute inset-0 bg-black/30" />

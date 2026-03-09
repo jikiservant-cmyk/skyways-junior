@@ -34,7 +34,7 @@ export default function ContactPage() {
       <section className="relative h-[40vh] w-full overflow-hidden flex items-center justify-center bg-[#6A040F]">
         <div className="absolute inset-0 overflow-hidden pointer-events-none" style={{ clipPath: 'inset(0)' }}>
           <div 
-            className="fixed inset-0 w-full h-full bg-center bg-cover -z-10 grayscale brightness-[0.3]"
+            className="fixed inset-0 w-full h-full bg-center bg-cover -z-10 brightness-[0.3]"
             style={{
               backgroundImage: `url(/images/622369574_1432212165364735_7324286455604369317_n.jpg)`,
             }}
@@ -172,7 +172,7 @@ export default function ContactPage() {
       {/* 3. Footer Map Placeholder Section */}
       <section className="h-[50vh] w-full bg-[#F5F5F5] relative group overflow-hidden">
         <div 
-          className="absolute inset-0 grayscale brightness-90 group-hover:grayscale-0 transition-all duration-1000 bg-center bg-cover"
+          className="absolute inset-0 brightness-90 transition-all duration-1000 bg-center bg-cover"
           style={{ backgroundImage: `url(/images/622409048_1433194215266530_6654922873296325365_n.jpg)` }}
         />
         <div className="absolute inset-0 bg-[#6A040F]/40 group-hover:bg-transparent transition-all duration-1000 flex items-center justify-center">

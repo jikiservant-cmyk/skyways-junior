@@ -66,7 +66,7 @@ export default function EventsPage() {
       {/* Parallax Background Wrapper */}
       <div className="fixed inset-0 w-full h-full pointer-events-none z-0" style={{ clipPath: 'inset(0)' }}>
         <div 
-          className="fixed inset-0 w-full h-full bg-center bg-cover grayscale-[0.5] brightness-[0.3]"
+          className="fixed inset-0 w-full h-full bg-center bg-cover brightness-[0.3]"
           style={{
             backgroundImage: `url(/images/images.jfif)`,
           }}
@@ -80,7 +80,7 @@ export default function EventsPage() {
           <ImageReveal 
             src="/images/images.jpg" 
             alt="Featured Event" 
-            className="w-full h-full grayscale brightness-75 transition-transform duration-[10000ms] group-hover:scale-110"
+            className="w-full h-full brightness-75 transition-transform duration-[10000ms] group-hover:scale-110"
           />
           <div className="absolute inset-0 bg-gradient-to-r from-black/60 to-transparent lg:hidden" />
         </div>
@@ -141,7 +141,7 @@ export default function EventsPage() {
                   <ImageReveal 
                     src={event.image} 
                     alt={event.title} 
-                    className="w-full h-full grayscale hover:grayscale-0 transition-all duration-700"
+                    className="w-full h-full transition-all duration-700"
                   />
                 </div>
 

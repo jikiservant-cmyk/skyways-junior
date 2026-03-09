@@ -67,7 +67,7 @@ export default function AcademicsPage() {
       <section className="relative h-screen w-full overflow-hidden flex items-center justify-center bg-[#1A1A1A]">
         <div className="absolute inset-0 overflow-hidden pointer-events-none" style={{ clipPath: 'inset(0)' }}>
           <div 
-            className="fixed inset-0 w-full h-full bg-center bg-cover -z-10 grayscale brightness-[0.4]"
+            className="fixed inset-0 w-full h-full bg-center bg-cover -z-10 brightness-[0.4]"
             style={{
               backgroundImage: `url(/images/images.jpg)`,
             }}
@@ -97,7 +97,7 @@ export default function AcademicsPage() {
               <ImageReveal 
                 src={prog.image} 
                 alt={prog.title} 
-                className="w-full h-full grayscale brightness-75 hover:grayscale-0 transition-all duration-1000"
+                className="w-full h-full brightness-75 transition-all duration-1000"
                 maskColor={prog.bgColor === "bg-[#3E3E4E]" ? "bg-[#3E3E4E]" : "bg-[#6A040F]"}
               />
             </div>

@@ -41,7 +41,7 @@ export default function AboutPage() {
       <section className="relative h-screen w-full overflow-hidden flex items-center justify-center bg-[#1A1A1A]">
         <div className="absolute inset-0 overflow-hidden pointer-events-none" style={{ clipPath: 'inset(0)' }}>
           <div 
-            className="fixed inset-0 w-full h-full bg-center bg-cover -z-10 grayscale-[0.3] brightness-[0.4]"
+            className="fixed inset-0 w-full h-full bg-center bg-cover -z-10 brightness-[0.4]"
             style={{
               backgroundImage: `url(/images/560020689_1348782107041075_5027888620366757027_n.jpg)`,
             }}
@@ -102,7 +102,7 @@ export default function AboutPage() {
                 alt="School History" 
                 width={800}
                 height={600}
-                className="w-full h-full grayscale hover:grayscale-0 transition-all duration-1000"
+                className="w-full h-full transition-all duration-1000"
               />
             </div>
           </div>
@@ -131,7 +131,7 @@ export default function AboutPage() {
                     alt={member.name} 
                     width={400}
                     height={500}
-                    className="w-full h-full grayscale brightness-95 hover:grayscale-0 transition-all duration-700"
+                    className="w-full h-full brightness-95 transition-all duration-700"
                   />
                 </div>
                 <div className="space-y-2 text-center">
