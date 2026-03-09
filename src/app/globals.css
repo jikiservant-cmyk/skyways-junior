@@ -161,5 +161,5 @@
 }
 
 .animate-pulsate {
-  animation: pulsate 3s ease-in-out infinite;
+  animation: pulsate 1.5s ease-in-out infinite;
 }
