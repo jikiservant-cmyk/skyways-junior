@@ -52,7 +52,7 @@ export default function AboutPage() {
           <div className="flex flex-col items-center">
             <KineticHeadline 
               lines={["OUR", "HISTORY"]} 
-              className="text-7xl md:text-[10rem] font-black uppercase tracking-tighter leading-[0.85] font-serif text-[#FFB800]"
+              className="text-6xl md:text-8xl lg:text-[10rem] font-black uppercase tracking-tighter leading-[0.85] font-serif text-[#FFB800]"
               staggerDelay={0.2}
             />
           </div>

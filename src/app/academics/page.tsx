@@ -78,7 +78,7 @@ export default function AcademicsPage() {
           <div className="flex flex-col items-center">
             <KineticHeadline 
               lines={["ACADEMICS"]} 
-              className="text-7xl md:text-[10rem] font-black uppercase tracking-tighter leading-[0.85] font-headline text-[#FFB800]"
+              className="text-6xl md:text-8xl lg:text-[10rem] font-black uppercase tracking-tighter leading-[0.85] font-headline text-[#FFB800]"
               staggerDelay={0.2}
             />
           </div>

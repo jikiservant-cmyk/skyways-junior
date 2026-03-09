@@ -93,7 +93,7 @@ export default function EventsPage() {
             </span>
             <KineticHeadline 
               lines={["BACK TO", "SCHOOL NIGHT"]} 
-              className="text-5xl md:text-7xl font-black uppercase font-headline leading-[0.85]"
+              className="text-4xl sm:text-5xl md:text-7xl font-black uppercase font-headline leading-[0.85]"
             />
             <InkFlowText className="text-white/80 text-lg md:text-xl font-body leading-relaxed max-w-md">
               Join us to meet the teachers, learn about the curriculum, and connect with other families for the upcoming school year.
@@ -114,7 +114,7 @@ export default function EventsPage() {
         <div className="container mx-auto px-6 md:px-12 text-center">
           <KineticHeadline 
             lines={["SCHOOL", "CALENDAR"]} 
-            className="text-white text-5xl md:text-8xl font-black uppercase tracking-tighter font-headline mb-6"
+            className="text-white text-4xl sm:text-5xl md:text-8xl font-black uppercase tracking-tighter font-headline mb-6"
           />
           <div className="h-1 w-24 bg-[#FFB800] mx-auto" />
         </div>

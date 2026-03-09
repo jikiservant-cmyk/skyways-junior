@@ -41,7 +41,7 @@ export default function GalleryPage() {
         <div className="container mx-auto px-6 relative z-10 text-center">
           <KineticHeadline 
             lines={["OUR", "GALLERY"]} 
-            className="text-6xl md:text-8xl font-black uppercase tracking-tighter leading-[0.85] font-serif text-[#FFB800]"
+            className="text-5xl md:text-7xl lg:text-8xl font-black uppercase tracking-tighter leading-[0.85] font-serif text-[#FFB800]"
             staggerDelay={0.2}
           />
         </div>

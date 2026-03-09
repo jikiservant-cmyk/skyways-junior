@@ -65,7 +65,7 @@ export default function StudentLifePage() {
             </span>
              <KineticHeadline 
               lines={["ROBOTICS", "CLUB"]} 
-              className="text-5xl md:text-7xl lg:text-8xl font-black uppercase font-headline leading-[0.85] mb-12"
+              className="text-4xl sm:text-5xl md:text-7xl lg:text-8xl font-black uppercase font-headline leading-[0.85] mb-12"
             />
           </div>
 
