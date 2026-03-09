@@ -150,3 +150,16 @@
 .hero-overlay {
   background: linear-gradient(to bottom, rgba(45, 43, 68, 0.7) 0%, rgba(45, 43, 68, 0.85) 100%);
 }
+
+@keyframes pulsate {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.08);
+  }
+}
+
+.animate-pulsate {
+  animation: pulsate 3s ease-in-out infinite;
+}

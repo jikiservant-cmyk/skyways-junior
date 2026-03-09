@@ -29,24 +29,24 @@ export default function Home() {
           <div className="absolute inset-0 bg-black/30" />
         </div>
         
-        <div className="container mx-auto px-6 relative z-10 flex justify-center">
-          <div className="flex flex-col items-center text-white text-center">
+        <div className="container mx-auto px-6 relative z-10 flex justify-center text-center">
+          <div className="flex flex-col items-center">
             <Image
               src="/images/Untitled (5).png"
               alt="Skyways Junior School Logo"
               width={100}
               height={100}
-              className="mb-4"
+              className="mb-4 animate-pulsate"
             />
             <KineticHeadline 
               lines={["WELCOME TO"]} 
-              className="text-lg md:text-2xl font-bold uppercase tracking-[0.4em] mb-12 font-headline text-center"
+              className="text-lg md:text-2xl font-bold uppercase tracking-[0.4em] mb-12 font-headline"
               staggerDelay={0}
             />
             
             <KineticHeadline 
               lines={["SKYWAYS JUNIOR", "SCHOOL"]} 
-              className="text-6xl md:text-7xl lg:text-[8rem] font-[900] uppercase tracking-tighter leading-[0.75] font-headline text-center items-center"
+              className="text-6xl md:text-7xl lg:text-[8rem] font-[900] uppercase tracking-tighter leading-[0.75] font-headline"
               staggerDelay={0.1}
             />
             
